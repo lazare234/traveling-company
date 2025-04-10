@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 400px;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR82TPGCiRgdY5XKfOWlSfJsIHPgo-gg4uGmg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-positon: center;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.main1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #8B0000;
+    margin-left: 100px;
+    margin-right: 400px
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
+
+.unordered {
+    display: flex;
+    padding-right: 100px;
+    font-size: 20px;
+    padding-top: 40px;
+    color: #8B0000;
+}
+
+.list {
+    margin-left: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.maina {
+    text-decoration: none;
+    color: #8B0000;
+}
+
+.bottom {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bott3 {
+    color: #8B0000;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.searchbar {
+    height: 35px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.bottom-part {
+    background-color: #98FB98;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.card {
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    background-color:  #f4e1c1;
+}
+
+.card-img {
+    height:200px;
+    width: 300px;
+}
+
+.card-h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card-h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-button {
+    height: 30px;
+    wodth: 100px;
+    border: 2px solid black;
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+.card-anchor {
+    text-align: center;
+    color: yellow;
+    text-decoration: none
+}
+
+
+.footer {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copy {
+    margin-top: 20px;
+}
+
+.center-div {
+    height:100vh;
+    width: 100vh;
+    box-shadow: 5px;
+    margin: auto;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.login-inpt {
+    margin-right: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 25px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.child-div {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.lgn-h1 {
+    margin-left: 27px;
+    margin-top: 7px;
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+input::placeholder {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.login-btn {
+    display: block;
+    margin: 40px auto 0 auto;
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #166FE5;
+    border: none;
+
+}
+
+.a-lgn {
+    text-decoration: none;
+    color: white;
+}
+
+.grandson-div {
+    padding-top: 70px;
+}
+
+.a-tag-cont {
+    text-align:center;
+    margin-top: 20px;
+}
+
+.center1-div {
+    height: 100vh;
+    width: 100%;
+    box-shadow: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login1-inpt {
+    width: 45%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.reg1-inpt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.child1-div {
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.lgn1-h1 {
+    margin-left: 27px;
+    margin-top: 7px;
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+input::placeholder {
+    font-weight: bold;
+}
+
+.login1-btn {
+    display: block;
+    margin: 40px auto 0 auto;
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #166FE5;
+    border: none;
+}
+
+.a1-lgn {
+    text-decoration: none;
+    color: white;
+}
+
+.grandson1-div {
+    padding-top: 70px;
+}
+
+.a1-tag-cont {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tag1 {
+    text-decoration: none;
+    color: blue;
+}
+
+.center2-div {
+    height: 100vh;
+    width: 100%;
+    box-shadow: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login2-inpt {
+    width: 45%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.reg2-inpt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.child2-div {
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.lgn2-h1 {
+    margin-left: 27px;
+    margin-top: 7px;
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+input::placeholder {
+    font-weight: bold;
+}
+
+.login2-btn {
+    display: block;
+    margin: 40px auto 0 auto;
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #166FE5;
+    border: none;
+}
+
+.a2-lgn {
+    text-decoration: none;
+    color: white;
+}
+
+.grandson2-div {
+    padding-top: 70px;
+}
+
+.a2-tag-cont {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tag2 {
+    text-decoration: none;
+    color: blue;
+}
+
+.abt-us {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.abt-p {
+    martin-top: 20px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.abt-p1 {
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.footer {
+  background-color:  #2e8b57;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #e0e0e0;
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.support-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4e1c1;
+}
+
+.support-heading {
+    font-size: 36px;
+    color: #8B0000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.support-description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Support Contact Information */
+.support-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.contact-info p {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
