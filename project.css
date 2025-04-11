@@ -451,7 +451,7 @@ input::placeholder {
     margin-bottom: 30px;
 }
 
-/* Support Contact Information */
+
 .support-contact {
     display: flex;
     flex-direction: column;
@@ -474,7 +474,7 @@ input::placeholder {
     font-size: 18px;
 }
 
-/* Footer Styles */
+
 .footer {
     background-color: #8B0000;
     color: white;
