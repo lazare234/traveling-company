@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>{{ movie.title }}</h2>
+<ul class="list-group">
+    <li class="list-group-item"><strong>Director:</strong> {{ movie.director }}</li>
+    <li class="list-group-item"><strong>Year:</strong> {{ movie.year }}</li>
+    <li class="list-group-item"><strong>Description:</strong> {{ movie.description }}</li>
+</ul>
+<a href="{{ url_for('index') }}" class="btn btn-secondary mt-3">Back</a>
+{% endblock %}
